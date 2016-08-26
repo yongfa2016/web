@@ -1,0 +1,131 @@
+ .sort-page .search {
+     width: 100%;
+     height: 44px;
+     max-width: 640px;
+     background-color: #f0f;
+     border-bottom: 1px solid #CCC;
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     z-index: 9;
+ }
+
+ .sort-page .search-box {
+      height: 30px;
+      margin: 7px 50px;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: red;
+ }
+
+ .sort-page .search .back {
+     width: 50px;
+     height: 44px;
+     position: absolute;
+     padding: 12px 19px;
+     box-sizing: border-box;
+     background:url(../images/jd-sprites.png)-24px 0;
+     background-size: 200px 200px;
+     background-clip: content-box;
+     background-origin: content-box;
+     left: 0;
+     top: 0;
+ }
+ .sort-page .search .more {
+    width: 50px;
+     height: 44px;
+     position: absolute;
+     padding: 13px 14px;
+     box-sizing: border-box;
+     background:url(../images/jd-sprites.png)-61px -1px;
+     background-size: 200px 200px;
+     background-clip: content-box;
+     background-origin: content-box;
+     right: 0;
+     top: 0;
+ }
+ .sort-page .container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  padding-top: 45px;
+  box-sizing: border-box;
+  overflow:auto;
+}
+.container .sup {
+  width: 90px;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  float: left;
+  overflow: auto;
+  background-color: #f3f4f6;
+  color: #252525;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.sup ul {
+  overflow: hidden;
+}
+.sup ul li {
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+  border-bottom: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+}
+.sup li.active {
+  border-right:none;
+  color: red;
+  background-color: #fff;
+}
+.sort-page .container .sub {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 95px ;
+  box-sizing: border-box;
+}
+.sub .hot,.sub .guide,.sub .hot-sale {
+  padding: 0 11px 0 13px;
+}
+.sub .hot h4,.sub .guide h4,.hot-sale h4 {
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color:#929292;
+}
+.sub .hot ul {
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-left:1px solid #ccc;
+
+}
+.hot ul li{
+  float: left;
+  width: 33.333%;
+  height: 44px;
+  border-right: 1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  text-align: center;
+  line-height: 44px;
+  box-sizing: border-box;
+}
+.hot li a {
+  color:#252525;
+  font-size: 12px;
+}
+.sub .guide ul {
+  overflow: hidden;
+}
+.guide ul li,.hot-sale ul li {
+  float: left;
+  width: 33.333%;
+}
+.guide li span,.hot-sale li span {
+  display: block;
+  color: #252525;
+  font-size: 12px;
+  text-align: center;
+}
+
